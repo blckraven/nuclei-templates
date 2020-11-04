@@ -9,6 +9,7 @@ requests:
   - payloads:
       username:
         - admin
+        - tomcat
 
       password:
         - admin
@@ -17,6 +18,7 @@ requests:
         - test
         - 12345
         - 123456
+        - tomcat
 
     attack: clusterbomb  # Available options: sniper, pitchfork and clusterbomb
 
